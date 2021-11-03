@@ -6,10 +6,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using AarsalsBookStore.Models;
 
-namespace AarsalsBookStore.Area.Customer.Controllers
+namespace AarsalsBookStore.Area.Customers.Controllers
 {
-    [Area("Customer")]
+    [Area("Customers")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

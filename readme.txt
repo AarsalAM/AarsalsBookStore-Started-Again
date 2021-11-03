@@ -40,3 +40,4 @@ I changed the namespace in the data folder to match the library class.
 So I finally was able to build without problems! I had to change the Error.cshtml models name to reference my models class library. 
 I created a static class called SD.cs in the utility project. I then added project references for this to the main project, and also to the DataAccess class library. 
 I added a new area called "Customer" and changed the route pattern in startup.cs to reference the area.
+I moved the homecontroller.cs into the new customer area
